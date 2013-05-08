@@ -173,7 +173,7 @@ display_versions() {
   check_current_version
   display_versions_with_selected $active
 
-  while true; do
+  while false; do
     read -s -n 3 c
     case "$c" in
       $UP)
